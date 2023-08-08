@@ -1,0 +1,127 @@
+/* CHATBOX*/
+.chatbox {
+    position: fixed;
+    bottom: 50px;
+    right: 30px; 
+    width: 320px;
+  
+}
+
+.chatbox__chat {
+   display: none; 
+   /* visibility: hidden; */
+   padding: 5px;  
+}
+
+
+/* Header*/
+.chatbox__image__header{
+    border-radius: 50%;
+    /* border-top-left-radius: 50px; */
+    padding: 5px;
+}
+.chatbox__image{
+    border-radius: 50%;
+}
+.chatbox__header {    
+    padding: 5px;
+    background: #263088;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-family: cursive;    
+}
+
+.chatbox__heading{
+    font-size: 1.2rem;
+    color: white;
+    font-family: cursive;
+}
+
+/* Messages */
+.chatbox__messages__cotainer {      
+    height: 300px;    
+    background: #4C56AF; 
+    opacity: 0.9;
+    font-family: cursive;
+    overflow-x:hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+   
+}
+
+.user__messages {
+    margin: 5px;
+    background: #E0E0E0;
+    padding: 8px 12px 8px 12px;   
+    color: #000;
+    width: fit-content;
+    max-width: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    flex-direction: column-reverse;
+    margin-left: auto;      
+}
+
+.bot__messages {
+    margin: 5px;
+    background: #E0E0E0;
+    padding: 8px 12px 8px 12px;
+    color: #000;
+    width: fit-content;
+    max-width: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: auto;
+}
+
+/* Footer */
+.chatbox__footer {
+    padding: 10px;  
+    background: #263088;    
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.chatbox__input { 
+    padding: 10px;     
+    font-family: cursive;
+}
+
+.chatbox__send__button {
+    padding: 10px;   
+    border-radius: 5px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #FFF;
+}
+.btn{
+    color: #FFF;
+    font-family: cursive;
+}
+
+
+
+/*Chatbox Button*/
+.chatbox__button {     
+    text-align: right;
+}
+
+.chatbox__button button,
+.chatbox__button button:focus,
+.chatbox__button button:visited {
+    width: 40px;
+    height: 40px;
+    padding: 20px;    
+    background: #263088;
+    border: none;
+    outline: none;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
